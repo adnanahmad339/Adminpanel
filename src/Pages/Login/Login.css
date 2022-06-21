@@ -1,0 +1,139 @@
+
+  .error {
+    color: #fc8181;
+    font-size: 0.75rem;
+    text-align: left;
+
+font-weight: 700;
+    text-align: center;
+  }
+  
+  
+  
+  .formLogin {
+    padding: 40px;
+
+
+   width: 40vw;
+    max-width: 400px;
+    margin: 10% auto;
+ background-color:#a0aec0;
+
+display: flex;  
+flex-direction: column;
+justify-content: center;
+border-radius: 10px;
+border-color: 1px solid #4299e1;
+}
+
+  
+  #formInputLogin
+  
+ {
+    text-align: center;
+    font-family: 'Urbanist', sans-serif;
+    width: 100%;
+    padding: 0.65rem 0.5rem;
+    font-size: 1rem;
+    color: black;
+    border: 1px solid #202328;
+    background-color: #fdfeff;
+    border-radius: 5px;
+    outline: none;
+    margin:8px;
+  }
+  
+  #formInputLogin:focus,
+  select:focus {
+    border-color: #4299e1;
+  }
+  
+  #formInputLogin::placeholder,
+  select::placeholder {
+    color: #a0aec0;
+    font-family: 'Urbanist', sans-serif;  
+}
+  
+
+  
+  .buttonLogin {
+    display: block;
+    margin: 1rem 0;
+    padding: 0.35rem 0.5rem;
+    background-color: #4299e1;
+
+    width: 90%;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+margin-left: 7%;
+margin-top: 2px;
+font-family: 'Urbanist', sans-serif;
+border: none;
+padding: 10px 10px;
+background-color: teal;
+color: white;
+  }
+  
+  input.input-error,
+  select.input-error {
+    border-color: #fc8181;
+  }
+  
+  .buttonLogin:disabled {
+    opacity: 35;
+  }
+
+  .linkLogin{
+    margin: 5px 0px;
+    font-size: 12px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+/*.wrapperLogin{
+    width: 40%;
+  padding: 20px;
+  background-color: white;
+  
+}
+.titleLogin{ font-size: 24px;
+    font-weight: 300;}
+ 
+    
+    .buttonLogin{
+        width: 99%;
+        border: none;
+        padding: 15px 20px;
+        background-color: teal;
+        color: white;
+        cursor: pointer;
+        margin-bottom: 10px;
+
+    }
+    .inputLogin{
+        flex: 1;
+  min-width: 99%;
+  margin: 10px 0;
+  padding: 10px;
+  
+    }
+
+    .linkLogin{
+        margin: 5px 0px;
+        font-size: 12px;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    .Error{
+        color :Black;
+    }
+    .ErrorLogin{
+        color :Red;
+    } */
